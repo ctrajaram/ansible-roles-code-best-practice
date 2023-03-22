@@ -2,3 +2,4 @@
    copy:
     src: httpd.conf
     dest: /etc/httpd/conf/httpd.conf
+   notify: restart httpd service
